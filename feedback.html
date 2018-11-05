@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <title>My github page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css" />
+
+
+
+</head>
+
+<body>
+  <header>
+    <div class="header_logo1"></div>
+    <div class="header_logo2">
+      <img src="images/logo.jpg" alt="Steffie's Sparkles Logo">
+    </div>
+      <div class="header_cart">
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+      <div class="header_search">
+        <i class="fa fa-search"></i><input type="text" />
+    </div>
+  </header>
+  <div id="MainContent">
+    <form action="response.html" method="post">
+      <div class="form-group">
+        <label for="contactName"> Full name</label>
+        <input type="text" name="name" value="" id="contactName" placeholder="Mickey Mouse">
+        </div>
+
+
+<p> what is your gender? </p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gender" id="other" value="other">
+          <label class="form-check-label" for="other">
+            other
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+          <label class="form-check-label" for="female">
+            female
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+          <label class="form-check-label" for="male">
+            male
+          </label>
+        </div>
+<div>
+<p> What is your favorite car brand? </p>
+</div>
+
+        <div>
+          <select class="">
+          <option value="">-- select one option --</option>
+          <option value="chevy">chevy</option>
+          <option value="Ford">Ford</option>
+          <option value="Toyota">Toyota</option>
+
+        </select>
+      </div>
+<div>
+<p> why is it your favorite? </p>
+</div>
+
+    <div>
+        <textarea name="comments" col="80" rows="10">
+        </textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Feedback</button>
+    </form>
+
+
+</html>
